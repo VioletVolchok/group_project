@@ -33,8 +33,7 @@ font-weight: 100;
 
 .mapdiv {
   width: 800px;
-  /* border: 1px solid red; */
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 #outer_delimitation {
