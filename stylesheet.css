@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+}
+
+/* Navbar written by Nasra */
+#main{
+font-size:1.5rem;
+font-weight: 100;
+
+}
+
+#main .nav-link{
+	color:white;
+
+}
+#main .nav-link:hover{
+	color:#EA1C2C;
+}
+
+#main .navbar-brand {
+	color:#EA1C2C;
+	font-size:1.5rem;
+
+}
+.navbar {
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+.mapdiv {
+  width: 50%;
+  margin: auto;
+}
+
+#outer_delimitation {
+  fill: none;
+}
+
+#inner_delimitations path, #inner_delimitations polyline {
+  stroke: black;
+}
+
+ #London_boroughs path {
+  fill: lightgrey;
+}
+
+ #London_boroughs path:hover {
+  fill: red;
+}
+
+/* Fixing the Barking split path shape - doesn't work after inserting <a> tags*/
+ #Barking:hover ~ #topOfBarking {
+  fill: red;
+}
+
+/* For checking which path aligns to what area of the map
+#thing {
+  fill: red;
+} */
+
+a {
+  cursor: pointer;
+}
