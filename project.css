@@ -1,0 +1,44 @@
+#main{
+font-size:1.5rem;
+font-weight: 100;
+
+}
+
+#main .nav-link{
+	color:white;
+
+}
+#main .nav-link:hover{
+	color:#EA1C2C;
+}
+
+#main .navbar-brand {
+	color:#EA1C2C;
+	font-size:1.5rem;
+	
+}
+.navbar {
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+.jumbotron{
+	background-image: url('Imgs/hello.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+} 
+ /* .carousel-inner > .carousel-item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+*/
+/.carousel {
+  width:40px;
+  height:360px;
+}
