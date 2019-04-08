@@ -1,35 +1,119 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+
+}
 p{
-color: black;
-margin-left: 20px;
-margin-right: 20px;
+  border: 5px solid transparent;
+  margin: 10px;
+  text-align: justify;
+  font-size: 1.2rem;
 }
-#main{
-font-size:1.5rem;
-font-weight: 100;
-}
-
-#main .nav-link{
-	color:blue;
-
-}
-#main .nav-link:hover{
-	color:#EA1C2C;
-}
-
-#main .navbar-brand {
-	color:#EA1C2C;
-	font-size:1.5rem;
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #5D4954;
+  font-family: 'Nunito', sans-serif;
 
 }
-.navbar {
-  height: 40px;
-  background-color: blue;
-  color: red;
-  transition: background-color 1s ease 0s;
+/* .navbar {
+  background:transparent;
+  background-color:transparent;
+} */
+.logo{
+  color:rgb(197, 193, 193);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
 }
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  text-transform: uppercase;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  color:rgb(197, 193, 193);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.burger{
+  display:none;
+  cursor: pointer;
+}
+.burger div{
+  width: 25px;
+  height:3px;
+  background-color:rgb(197, 193, 193);
+  margin:5px;
+}
+@media screen and (max-width:1024px){
+  body{
+    overflow: hidden;
+  }
+}
+.nav-links{
+  width: 60%;
+}
+
+@media screen and (max-width:780px){
+  .nav-links{
+    position: absolute;
+    right:0px;
+    height:50vh;
+    top:8vh;
+    background-color: #5D4954;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+    transform: translatex(100%);
+
+  }
+  .nav-links li{
+    opacity:0;
+  }
+  .burger{
+    display: block;
+  }
+}
+.nav-active{
+  transform: translateX(0%);
+  transition:transform 0.5s ease-in;
+}
+
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}
+
 
 .jumbotron{
-	background-image: url('Imgs/hello2.jpg');
+	background-image: url('Imgs/hello.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 	height: 350px;;
@@ -41,3 +125,9 @@ font-weight: 100;
 	margin-right: auto;
 	margin-bottom: 50px;
 }
+@media (max-width: 780px) {
+    .carousel {
+      width:280px;
+      height:260px;
+
+    }
