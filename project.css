@@ -4,9 +4,12 @@
   box-sizing: border-box;
 
 }
+body{
+  background-color: #5D4954;
+}
 p{
   border: 5px solid transparent;
-  margin: 10px;
+  margin: 15px;
   text-align: justify;
   font-size: 1.2rem;
 }
@@ -55,11 +58,7 @@ nav{
   background-color:rgb(197, 193, 193);
   margin:5px;
 }
-@media screen and (max-width:1024px){
-  body{
-    overflow: hidden;
-  }
-}
+
 .nav-links{
   width: 60%;
 }
@@ -113,21 +112,17 @@ nav{
 
 
 .jumbotron{
-	background-image: url('Imgs/hello.jpg');
-	background-size:cover;
+  background-color: white;
+  background-position: center;
+  background-image: url('Imgs/word 2.png');
+	background-size:contain;
 	background-repeat:no-repeat;
-	height: 350px;;
+	height: 350px;
+  margin-top: 50px;
+
 }
 .carousel {
-  width:400px;
-  height:360px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
 }
-@media (max-width: 780px) {
-    .carousel {
-      width:280px;
-      height:260px;
-
-    }
