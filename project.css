@@ -5,7 +5,10 @@
 
 }
 body{
-  background-color: #5D4954;
+
+  background-image: url('Imgs/unsplash.jpg');
+  background-size:cover;
+	background-repeat:no-repeat;
 }
 p{
   border: 5px solid transparent;
@@ -18,7 +21,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #5D4954;
+  background-color:#3133FF;
   font-family: 'Nunito', sans-serif;
 
 }

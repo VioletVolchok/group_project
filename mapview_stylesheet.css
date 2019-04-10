@@ -65,3 +65,18 @@ font-weight: 100;
 a {
   cursor: pointer;
 }
+@media (max-width:900px){
+.mapdiv  {
+width:95%
+}
+}
+.maphidden{
+  font-size: 2rem;
+  font-weight: 100;
+  color:red;
+  text-transform: uppercase;
+  margin-top: 20%;
+
+}
+
+/* Credit Tom Parsons of Unsplash https://unsplash.com/photos/ow_3Zc8xSN4 */
