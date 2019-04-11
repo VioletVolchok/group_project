@@ -6,11 +6,13 @@
 }
 body{
   background-color: black;
-  background-image: url('Imgs/tube.jpg');
+  background-image: url('Imgs/tube gradient.png');
   background-size:cover;
 	background-repeat:no-repeat;
+  /* background-position: 0 200px; */
 
 }
+
 p{
   color: rgb(197, 193, 193);
   border: 5px solid transparent;
@@ -126,9 +128,10 @@ nav{
 
 
 .jumbotron{
-  background-color: white;
+  display: block;
+  background-color: transparent;
   background-position: center;
-  background-image: url('Imgs/Word 2.png');
+  background-image: url('Imgs/Word 2 transparent.png');
 	background-size:contain;
 	background-repeat:no-repeat;
 	height: 350px;
