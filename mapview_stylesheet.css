@@ -40,4 +40,46 @@ width:95%
   color:white;
   text-transform: uppercase;
   margin: 20% 5%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.langPage {
+  width: 90%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.langImg {
+  height: 20vh;
+  background: url('Imgs/Arabic_bg.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.langTitle {
+  height: 20vh;
+}
+
+.langTitle h1{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  line-height: 20vh;
+  white-space: nowrap;
+  margin: auto;
+  margin-left: 20px;
+}
+
+.photoCredit {
+  font-size: 0.5rem;
+}
+
+button {
+  margin: 100px;
 }
