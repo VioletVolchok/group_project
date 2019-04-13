@@ -16,15 +16,9 @@ body{
 p.info{
   color: rgb(197, 193, 193);
   border: 5px solid transparent;
-
   margin: 15px;
-  color: rgb(253,253,255);
   text-align: justify;
   font-size: 1.2rem;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -35,20 +29,19 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-
   background-color: none;
-
   font-family: 'Nunito', sans-serif;
 
 }
-.navbar.scrolled{
+/* .navbar.scrolled{
 	background-color:black;
 	transition:background 1.5s;
     opacity: 0.7;
-}
+} */
 
 .logo{
   color:rgb(197, 193, 193);
+  text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
 }
@@ -96,9 +89,6 @@ nav{
 
 .nav-links{
   width: 60%;
-}
-.navbar a:hover{
-  border-bottom: 4px solid red;
 }
 
 @media screen and (max-width:780px){
