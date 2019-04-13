@@ -53,6 +53,10 @@ width:95%
   margin: auto;
   margin-bottom: 20px;
   display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .langImg {
