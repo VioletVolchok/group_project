@@ -25,6 +25,11 @@
   fill: red;
 }
 
+/* For checking which path aligns to what area of the map
+#thing {
+  fill: red;
+} */
+
 a {
   cursor: pointer;
 }

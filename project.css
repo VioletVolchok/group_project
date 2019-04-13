@@ -13,26 +13,29 @@ body{
 }
 p{
   border: 5px solid transparent;
+
   margin: 15px;
+  color: rgb(253,253,255);
   text-align: justify;
   font-size: 1.2rem;
+    opacity: 10;
 }
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: none;
   font-family: 'Nunito', sans-serif;
 
 }
-/* .navbar {
-  background:transparent;
-  background-color:transparent;
-} */
+.navbar.scrolled{
+	background-color:black;
+	transition:background 1s;
+  
+}
+
 .logo{
   color:rgb(197, 193, 193);
-  text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
 }
@@ -65,6 +68,9 @@ nav{
 
 .nav-links{
   width: 60%;
+}
+.navbar a:hover{
+  border-bottom: 4px solid red;
 }
 
 @media screen and (max-width:780px){
@@ -118,15 +124,17 @@ nav{
 .jumbotron{
   background-color: white;
   background-position: center;
-  background-image: url('Imgs/Word 2.png');
+  background-image: url('Imgs/word 2.png');
 	background-size:contain;
 	background-repeat:no-repeat;
 	height: 350px;
-  margin-top: 50px;
 
 }
 .carousel {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
+}
+.glyphicon.glyphicon-chevron-right{
+   color:red;
 }
