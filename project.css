@@ -6,12 +6,14 @@
 }
 body{
   background-color: black;
-  background-image: url('Imgs/tube.jpg');
+  background-image: url('Imgs/tube gradient.png');
   background-size:cover;
 	background-repeat:no-repeat;
+  background-position: top;
 
 }
-p{
+
+p.info{
   color: rgb(197, 193, 193);
   border: 5px solid transparent;
 
@@ -51,6 +53,10 @@ nav{
   font-size: 20px;
 }
 
+.logo a:hover {
+  color: red;
+}
+
 .logo a {
   color:rgb(197, 193, 193);
   text-decoration: none;
@@ -72,6 +78,11 @@ nav{
   font-weight: bold;
   font-size: 14px;
 }
+
+.navbar a:hover {
+  border-bottom: 4px solid red;
+}
+
 .burger{
   display:none;
   cursor: pointer;
@@ -96,7 +107,7 @@ nav{
     right:0px;
     height:50vh;
     top:8vh;
-    background-color: #5D4954;
+    background-color: rgba(0,0,0,0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,9 +150,10 @@ nav{
 
 
 .jumbotron{
-  background-color: white;
+  display: block;
+  background-color: transparent;
   background-position: center;
-  background-image: url('Imgs/Word 2.png');
+  background-image: url('Imgs/Word 2 transparent.png');
 	background-size:contain;
 	background-repeat:no-repeat;
 	height: 350px;
@@ -151,6 +163,10 @@ nav{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
+}
+
+#carousel:hover {
+  background-color: rgba(0,0,0,0.5);
 }
 
 a.credit {
