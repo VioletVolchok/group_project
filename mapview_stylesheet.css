@@ -72,14 +72,14 @@ width:95%
   font-family: 'Nunito', sans-serif;
   line-height: 20vh;
   white-space: nowrap;
-  margin: auto;
   margin-left: 20px;
 }
 
 .photoCredit {
   font-size: 0.5rem;
+  text-align: right;
 }
 
 button {
-  margin: 100px;
+  margin: 0 0 50px 200px;
 }

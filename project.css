@@ -43,6 +43,10 @@ nav{
   font-size: 20px;
 }
 
+.logo a:hover {
+  color: red;
+}
+
 .logo a {
   color:rgb(197, 193, 193);
   text-decoration: none;
@@ -65,8 +69,8 @@ nav{
   font-size: 14px;
 }
 
-.nav-links a:hover {
-  text-decoration: underline red;
+.navbar a:hover {
+  border-bottom: 4px solid red;
 }
 
 .burger{
