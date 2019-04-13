@@ -5,57 +5,37 @@
 
 }
 body{
-  background-color: black;
+
   background-image: url('Imgs/tube.jpg');
   background-size:cover;
 	background-repeat:no-repeat;
 
 }
 p{
-  color: rgb(197, 193, 193);
   border: 5px solid transparent;
-
   margin: 15px;
-  color: rgb(253,253,255);
   text-align: justify;
   font-size: 1.2rem;
-<<<<<<< HEAD
-    opacity: 10;
-=======
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
->>>>>>> f2cc69075a25f93062b74e9c43a415996b41afb6
 }
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-<<<<<<< HEAD
-=======
-  background-color: none;
->>>>>>> f2cc69075a25f93062b74e9c43a415996b41afb6
+  background-color:#3133FF;
   font-family: 'Nunito', sans-serif;
 
 }
-.navbar.scrolled{
-	background-color:black;
-	transition:background 1.5s;
-    opacity: 0.7;
-}
-
+/* .navbar {
+  background:transparent;
+  background-color:transparent;
+} */
 .logo{
   color:rgb(197, 193, 193);
+  text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
 }
-
-.logo a {
-  color:rgb(197, 193, 193);
-  text-decoration: none;
-}
-
 .nav-links{
   display: flex;
   justify-content: space-around;
@@ -85,9 +65,6 @@ nav{
 
 .nav-links{
   width: 60%;
-}
-.navbar a:hover{
-  border-bottom: 4px solid red;
 }
 
 @media screen and (max-width:780px){
@@ -141,19 +118,15 @@ nav{
 .jumbotron{
   background-color: white;
   background-position: center;
-  background-image: url('Imgs/Word 2.png');
+  background-image: url('Imgs/word 2.png');
 	background-size:contain;
 	background-repeat:no-repeat;
 	height: 350px;
+  margin-top: 50px;
 
 }
 .carousel {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
-}
-
-a.credit {
-  position: fixed;
-  bottom: 0;
 }

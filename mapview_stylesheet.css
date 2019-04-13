@@ -6,13 +6,10 @@
 
 #outer_delimitation {
   fill: none;
-  stroke: black;
-  stroke-width: 2;
 }
 
 #inner_delimitations path, #inner_delimitations polyline {
   stroke: black;
-  fill: none;
 }
 
  #London_boroughs path {
@@ -28,16 +25,24 @@
   fill: red;
 }
 
+/* For checking which path aligns to what area of the map
+#thing {
+  fill: red;
+} */
+
+a {
+  cursor: pointer;
+}
 @media (max-width:900px){
 .mapdiv  {
 width:95%
 }
 }
-
-.maphidden p {
+.maphidden{
   font-size: 2rem;
   font-weight: 100;
-  color:white;
+  color:red;
   text-transform: uppercase;
-  margin: 20% 5%;
+  margin-top: 20%;
+
 }
