@@ -19,23 +19,23 @@ p{
   color: rgb(253,253,255);
   text-align: justify;
   font-size: 1.2rem;
+<<<<<<< HEAD
+    opacity: 10;
+=======
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
-
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-
+>>>>>>> f2cc69075a25f93062b74e9c43a415996b41afb6
 }
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-
+<<<<<<< HEAD
+=======
   background-color: none;
-
+>>>>>>> f2cc69075a25f93062b74e9c43a415996b41afb6
   font-family: 'Nunito', sans-serif;
 
 }
