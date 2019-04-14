@@ -12,13 +12,13 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="project.css">
 
-  <title>2nd languages spoken in london boroughs</title>
+  <title>Home | CodeSwitch</title>
 </head>
 <body>
-
-  <nav id="main" class="navbar fixed-top">
-<div class="logo">
-  <h4> CodeSwitching </h4>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top scrolled">
+    <div class="logo">
+      <a href="index.html"><h4> Code Switching </h4></a>
     </div>
     <ul class="nav-links ">
       <li>
@@ -28,24 +28,29 @@
         <a href="mapview.html">Map View</a>
       </li>
       <li>
-        <a href="aboutproject.html">About Us</a>
-      </li>
+        <a href="#">About Us</a>
       </li>
     </ul>
     <div class="burger ">
       <div class="line1"></div>
       <div class="line2"></div>
       <div class="line3"></div>
-      </div>
+    </div>
   </nav>
+  <!-- Top graphic under navbar -->
   <section class="container-fluid px-0 text-center">
     <div class="jumbotron jumbotron-fluid ">
-
     </div>
   </section>
+  <!-- Info about website -->
   <section>
-
+    <p class="info"> This website show cases the second most commonly spoken languages in London boroughs.
+      It is based on the data collected from the 2011 census. Every 10 years the census collects information about the population;
+      from 1801 (except in 1941) and the latest census in England and Wales took place on 27 March 2011.
+      The presence of each ethnicity is noticed as you walk down the streets of these boroughs from the shops to the local people.
+    </p>
   </section>
+  <!-- Carousel -->
   <section id="carousel" class="container px-0">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -72,7 +77,6 @@
               <img src="Imgs/Punjabi.png" class="d-block w-100" alt="...">
             </div>
           </div>
-
         </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -85,12 +89,21 @@
         </div>
       </section>
 
+      <!-- Embedding Unsplash credit badge for background photo -->
+      <a  class="credit" style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@tomzzlee?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Tom Parsons"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Tom Parsons</span></a>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="apps.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+<script>
+       $(function () {
+           $(document).scroll(function () {
+               var $nav = $("#main");
+               $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+           });
+       });
+   </script>
 </body>
 </html>

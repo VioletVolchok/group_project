@@ -23,10 +23,3 @@ const navSlide= ()=> {
     });
 }
 navSlide();
-
-$(function () {
-         $(document).scroll(function () {
-             var $nav = $("#main");
-             $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-         });
-     });
