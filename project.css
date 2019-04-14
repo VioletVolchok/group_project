@@ -5,56 +5,39 @@
 
 }
 body{
-  background-color: black;
-  background-image: url('Imgs/tube gradient.png');
+
+  background-image: url('Imgs/tube.jpg');
   background-size:cover;
 	background-repeat:no-repeat;
-  background-position: center;
 
 }
-
-p.info{
-  color: rgb(197, 193, 193);
+p{
   border: 5px solid transparent;
   margin: 15px;
+  color: rgb(253,253,255);
   text-align: justify;
   font-size: 1.2rem;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-
+  opacity: 10;
 }
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: none;
   font-family: 'Nunito', sans-serif;
 
 }
 .navbar.scrolled{
-	background-color:black;
-	transition:background 1.5s;
-  opacity: 0.7;
+	background-color: rgba(0,0,0,0.5);
+	transition:background 1s;
+
 }
 
 .logo{
   color:rgb(197, 193, 193);
-  text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
 }
-
-.logo a:hover {
-  color: red;
-}
-
-.logo a {
-  color:rgb(197, 193, 193);
-  text-decoration: none;
-}
-
 .nav-links{
   display: flex;
   justify-content: space-around;
@@ -71,11 +54,6 @@ nav{
   font-weight: bold;
   font-size: 14px;
 }
-
-.navbar a:hover {
-  border-bottom: 4px solid red;
-}
-
 .burger{
   display:none;
   cursor: pointer;
@@ -90,6 +68,9 @@ nav{
 .nav-links{
   width: 60%;
 }
+.navbar a:hover{
+  border-bottom: 4px solid red;
+}
 
 @media screen and (max-width:780px){
   .nav-links{
@@ -97,7 +78,7 @@ nav{
     right:0px;
     height:50vh;
     top:8vh;
-    background-color: black;
+    background-color: #5D4954;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,14 +121,12 @@ nav{
 
 
 .jumbotron{
-  display: block;
-  background-color: transparent;
+  background-color: white;
   background-position: center;
-  background-image: url('Imgs/Word 2 transparent.png');
+  background-image: url('Imgs/word 2.png');
 	background-size:contain;
 	background-repeat:no-repeat;
 	height: 350px;
-  margin-top: 50px;
 
 }
 .carousel {
@@ -155,12 +134,6 @@ nav{
 	margin-right: auto;
 	margin-bottom: 50px;
 }
-
-#carousel:hover {
-  background-color: rgba(0,0,0,0.5);
-}
-
-a.credit {
-  position: fixed;
-  bottom: 0;
+.glyphicon.glyphicon-chevron-right{
+   color:red;
 }
