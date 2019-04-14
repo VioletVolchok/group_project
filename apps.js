@@ -23,3 +23,11 @@ const navSlide= ()=> {
     });
 }
 navSlide();
+scroll.js:
+            $(function () {
+                    $(document).scroll(function () {
+                        var $nav = $("#main");
+                        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                    });
+                });
+         
