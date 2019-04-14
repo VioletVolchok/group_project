@@ -9,7 +9,7 @@ body{
   background-image: url('Imgs/tube gradient.png');
   background-size:cover;
 	background-repeat:no-repeat;
-  background-position: top;
+  background-position: center;
 
 }
 
@@ -147,6 +147,7 @@ nav{
 	background-size:contain;
 	background-repeat:no-repeat;
 	height: 350px;
+  margin-top: 50px;
 
 }
 .carousel {
