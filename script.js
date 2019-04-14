@@ -50,8 +50,6 @@ $(document).on('click touch', function(event) {
 $('.arabicPage').on('click touch', function(event) {
   event.stopPropagation();
 });
-//Try to make it scroll?
-$('.arabicPage').
 
 //Bengali
 $('.Bengali').on('click touch', function(){
