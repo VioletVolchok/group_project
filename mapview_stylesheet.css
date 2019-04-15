@@ -105,16 +105,3 @@ width:95%
   font-size: 0.5rem;
   text-align: right;
 }
-
-.langFacts {
-  margin: 20px;
-  padding: 10px;
-  background-color: rgb(200,200,200);
-  border-radius: 15px;
-  height: 45vh;
-}
-
-.langFacts li {
-  list-style: none;
-  padding: 5px;
-}

@@ -1,0 +1,96 @@
+.project{
+  overflow: hidden;
+ text-align: center;
+ background: #34405e;
+ border-radius: 15px;
+ color: white;
+
+}
+ .project h3{
+   text-transform: uppercase;
+   margin: auto;
+   color: white;
+   font-size: 30px;
+   margin-top: 48px;
+
+
+}
+section{
+  position: absolute;
+  margin-top:5%;
+  margin-left: 50%;
+  transform:translatex(-50%);
+  margin-bottom: 20px;
+  width: 100%;
+
+}
+
+.border{
+  display: block;
+  margin: auto;
+  height: 3px;
+  background: #3498db;
+  margin-bottom: 40px;
+
+}
+.the-team{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.pe{
+	float: left;
+	padding:40px 0;
+	transition:0.4;
+  justify-content: space-around;
+
+}
+.pe img{
+  width: 160px;
+  height: 160px;
+  border-radius: 30%;
+  margin: 0 30px;
+  filter:grayscale(100%);
+  position: center
+
+}
+.pe img:hover  {
+  filter:none;
+}
+.pe:hover  {
+  color: pink;
+  font-size: 20px;
+
+}
+.pe-name{
+  margin: 18px 0;
+
+}
+
+.p-des{
+	font-style: italic;
+	color: #3498db;
+}
+.p-sm a{
+	margin: 0 4px;
+	display: inline-block;
+	width: 30px;
+	height: 50px;
+	transition:0.6;
+  font-size:20px;
+}
+
+.p-sm a:hover{
+	transfrom:scale(1:2);
+	}
+	.p-sm a i{
+		color: black;
+		line-height: 30px;
+
+	}
+	@media screen and (max-width:600px){
+		.pe{
+			width: 100%
+		}
+	}
