@@ -52,7 +52,7 @@ section{
   border-radius: 30%;
   margin: 0 30px;
   filter:grayscale(100%);
-  position: center
+  position: center;
 
 }
 .pe img:hover  {

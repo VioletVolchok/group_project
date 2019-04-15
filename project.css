@@ -17,10 +17,10 @@ p.info{
   color: rgb(197, 193, 193);
   border: 5px solid transparent;
   margin: 15px;
-  text-align: justify;
+  text-align: center;
   font-size: 1.2rem;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 15px;
 
 }
